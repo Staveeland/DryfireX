@@ -3,77 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="DryFire App Support and Privacy Policy" />
-  <title>DryFire Support & Privacy</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      background: #0f0f1e;
-      color: #ffffff;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-    header {
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-    img.logo {
-      width: 120px;
-      height: auto;
-      margin-bottom: 1rem;
-    }
-    main {
-      max-width: 700px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
-    h1, h2 {
-      color: #f39c12;
-      margin-top: 2rem;
-    }
-    a {
-      color: #3498db;
-      text-decoration: underline;
-    }
-    section {
-      margin-bottom: 3rem;
-    }
-    @media (max-width: 600px) {
-      body {
-        padding: 1rem;
-      }
-      main {
-        padding: 1rem;
-      }
-    }
-  </style>
+  <meta name="description" content="DryFire - Precision Timing for Dry Practice. Professional shot timer app for competitive shooters." />
+  <title>DryFire - Precision Timing for Dry Practice</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <img src="logodryfire.jpg" alt="DryFire Logo" class="logo" />
-    <h1>DryFire App</h1>
-  </header>
-  <main>
-    <section>
-      <h2>Support</h2>
-      <p>If you have any questions, bug reports, or feedback, feel free to contact us:</p>
-      <ul>
-        <li>Email: <a href="mailto:petter@petterstaveland.com">petter@petterstaveland.com</a></li>
-      </ul>
-    </section>
+  <div class="bg-animation"></div>
+  
+  <div class="content">
+    <header>
+      <div class="logo-container">
+        <img src="logodryfire.jpg" alt="DryFire Logo" class="logo" />
+      </div>
+      <h1 class="main-title">DryFire</h1>
+      <p class="subtitle">Precision Timing for Dry Practice</p>
+      
+      <div class="precision-indicators">
+        <div class="indicator">
+          <div class="indicator-icon">⏱</div>
+          <span>Precision Timing</span>
+        </div>
+        <div class="indicator">
+          <div class="indicator-icon">🎯</div>
+          <span>Competition Ready</span>
+        </div>
+        <div class="indicator">
+          <div class="indicator-icon">🔒</div>
+          <span>Safe Training</span>
+        </div>
+      </div>
+      
+      <div class="download-section">
+        <a href="https://apps.apple.com/no/app/dryfirex/id6747921814" class="app-store-button" target="_blank" rel="noopener">
+          <div class="app-store-icon">📱</div>
+          <div class="app-store-text">
+            <span class="download-text">Download on the</span>
+            <span class="store-name">App Store</span>
+          </div>
+        </a>
+      </div>
+    </header>
+    
+    <main>
+      <section>
+        <h2>Support</h2>
+        <p>Need assistance with DryFire? Our team is here to help with questions, bug reports, or feedback to make your training experience even better.</p>
+        <ul>
+          <li><strong>Email Support:</strong> <a href="mailto:petter@petterstaveland.com">petter@petterstaveland.com</a></li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Privacy Policy</h2>
+        <p><strong>DryFire</strong> is built with your privacy as a top priority. We believe your training data should stay with you, always.</p>
+        <ul>
+          <li><strong>Microphone Access:</strong> Required only for audio detection during timing sessions. All audio is processed locally on your device and never recorded, stored, or transmitted anywhere.</li>
+          <li><strong>No Account Required:</strong> Train immediately without creating accounts, providing personal information, or logging in.</li>
+          <li><strong>Zero Analytics:</strong> No third-party tracking, analytics tools, or data collection of any kind.</li>
+          <li><strong>Completely Offline:</strong> All features work without internet connectivity. Your training data never leaves your device.</li>
+          <li><strong>No Subscriptions:</strong> One-time purchase with no recurring fees, subscription tracking, or payment monitoring.</li>
+        </ul>
+        <p>Questions about our privacy practices? Contact us using the support email above.</p>
+      </section>
+    </main>
+  </div>
 
-    <section>
-      <h2>Privacy Policy</h2>
-      <p><strong>DryFire</strong> respects your privacy. This app does not collect, store, or transmit any personal data.</p>
-      <ul>
-        <li><strong>Microphone Access:</strong> Required to detect dry-fire audio for timing. Audio is processed locally and never recorded or transmitted.</li>
-        <li><strong>No Account:</strong> The app does not require login or personal identification.</li>
-        <li><strong>No Analytics:</strong> The app does not use third-party tracking or analytics tools.</li>
-        <li><strong>Offline Use:</strong> All features work without internet connectivity.</li>
-      </ul>
-      <p>For any questions regarding privacy, please contact us via the support email listed above.</p>
-    </section>
-  </main>
+  <script src="script.js"></script>
 </body>
 </html>
